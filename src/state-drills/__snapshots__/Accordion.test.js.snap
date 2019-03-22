@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Component component opens a clicked section 1`] = `
+<div>
+  <ul>
+    <li
+      key="0"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Sloth
+      </button>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+    </li>
+    <li
+      key="1"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Lemur
+      </button>
+    </li>
+    <li
+      key="2"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Scorpion
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Accordion Component component renders empty li when sections prop is not given or supplied 1`] = `
+<div>
+  <ul />
+</div>
+`;
+
+exports[`Accordion Component component renders no sections as active by default 1`] = `
+<div>
+  <ul>
+    <li
+      key="0"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Sloth
+      </button>
+    </li>
+    <li
+      key="1"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Lemur
+      </button>
+    </li>
+    <li
+      key="2"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Scorpion
+      </button>
+    </li>
+  </ul>
+</div>
+`;
